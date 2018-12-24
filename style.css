@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header_area {
+    background: url('images/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover; 
+}
+.header-top {
+    padding: 30px 30px;
+    margin-bottom: 90px;
+}
+.header-top p {
+    font-size: 18px;
+}
+.header_btn_item a {
+    text-decoration: none;
+}
+.header_btn_item a:hover {
+    color: #000000;
+}
+.header_btn_single {
+    border: 2px solid #000;
+    padding: 15px 53px;
+    display: inline-block;
+    color: #000;
+    min-width: 305px;
+    font-weight: 700;
+    font-size: 23px;
+    box-shadow: 4px 5px 13px 0px #000;
+    margin-bottom: 50px;
+}
+.header_bottom p {
+    font-size: 17px;
+    color: #000000;
+}
+
+.application_form,
+.application_details {
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.application_box,
+.application_details_box {
+    border: 2px solid #000000;
+}
+.application_box >  p,
+.application_details_box > p {
+    font-size: 17px;
+    font-family: tahoma;
+    color: #000000;
+    font-weight: 700;
+    border-bottom: 2px solid #000000;
+    padding-left: 10px;
+}
+.application_box .purpose_box,
+.document_box,
+.action_area {
+    padding: 1% 5%;
+}
+fieldset.scheduler-border {
+    border: 2px solid #000 !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto;
+    padding:0 10px;
+    border-bottom:none;
+}
+
+.amount_box,
+.date_box,
+.loan_tyoe_box {
+    padding: 1% 3%;
+}
+.date_box i {
+    font-size: 35px;
+}
+.loan_tyoe_box #check {
+    margin-left: -20px;
+}
+loan_status_bar {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.loan_bar {
+    border-bottom: 2px solid #000;
+    margin-top: 20px;
+    position: relative;
+}
+.circle {
+    margin-left: 30px;
+    background: #fff;
+}
+.loan_icon {
+    overflow: hidden;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+.loan_icon span {
+    font-weight:bold;
+    margin-top:5px;
+}
+.loan_icon a {
+    color: #000000;
+    text-decoration: none;
+}
+.application_details_footer {
+    overflow: hidden;
+}
+.advisor_profile {
+    margin-left: 10px;
+}
+.advisor_profile p,
+.details_access p {
+    color: #000000;
+    font-size: 17px;
+}
+.details_document {
+    border: 2px solid #000000;
+    padding: 5px;
+    margin-top: 60px;
+    margin-left: 3px;
+}
+.details_document p {
+    font-weight: bold;
+    font-size: 17px;
+}
+.details_document_box {
+    border: 2px solid #000000;
+    padding: 31px 0px;
+    margin: 12px;
+}
+.details_document_box i {
+    font-size: 65px;
+    color: #000;
+    padding: 5px;
+}
+.details_access {
+    border: 2px solid #000000;
+    margin-top: 60px;
+    padding: 20px;
+}
+.details_access span {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: tahoma;
+}
+.details_access span i {
+    color: green;
+    margin-left: 21px;
+    font-size: 20px;
+}
+.ntoification_area {
+    overflow: hidden;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin-right: 5px; 
+    margin-bottom: 10px;
+}
+.ntoification_area .bell i {
+    font-size: 30px;
+    padding-right:  5px;
+    font-weight: bold;
+}
+.notification_message p i {
+    color: green;
+}
+.chating_area {
+	min-height: 341px;
+    padding: 10px;
+    margin-right: 5px;
+    border: 2px solid #000000;
+}
+.chating_area .chating_btn {
+    border-bottom:  2px solid #000;
+    display: block;
+}
